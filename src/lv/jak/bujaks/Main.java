@@ -1,10 +1,9 @@
 package lv.jak.bujaks;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 	}
 
 }
