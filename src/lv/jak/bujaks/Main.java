@@ -1,10 +1,19 @@
 package lv.jak.bujaks;
 
 import java.awt.EventQueue;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 public class Main {
 
 	public static void main(String[] args) {
+		Audzeknis audzeknis = null;
+		Gui window = new Gui();
+		String vards;
+		String uzvards;
+		ArrayList<Audzeknis> list = new ArrayList();
+
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -15,12 +24,6 @@ public class Main {
 				}
 			}
 		});
-		skolenuSkaituSkaitaTabuluIzveide();
-	}
 
-	public static void skolenuSkaituSkaitaTabuluIzveide() {
-		
-		
 	}
-
 }
