@@ -1,37 +1,42 @@
 package lv.jak.bujaks;
 
 public class Audzeknis {
-	private String vards;
-	private String uzvards;
-	private Kurss kurss;
 
-	public Audzeknis(String vards, String uzvards) {
-		this.vards = vards;
-		this.uzvards = uzvards;
-		this.kurss = kurss;
+	String vards;
+	String uzvards;
+	int atzime;
+
+	public Audzeknis() {
+
 	}
 
-	public String getvards() {
+	public Audzeknis(String vards, String uzvards, int atzime) {
+		this.vards = vards;
+		this.uzvards = uzvards;
+		this.atzime = atzime;
+	}
+
+	public String getVards() {
 		return vards;
 	}
 
-	public void setvards(String vards) {
+	public void setVards(String vards) {
 		this.vards = vards;
 	}
 
-	public String getuzvards() {
+	public String getUzvards() {
 		return uzvards;
 	}
 
-	public void setuzvards(String uzvards) {
+	public void setUzvards(String uzvards) {
 		this.uzvards = uzvards;
 	}
 
-	public Kurss getKurss() {
-		return kurss;
+	public int getAtzime() {
+		return atzime;
 	}
 
-	public void setKurss(Kurss kurss) {
-		this.kurss = kurss;
+	public void setAtzime(int atzime) {
+		this.atzime = atzime;
 	}
 }

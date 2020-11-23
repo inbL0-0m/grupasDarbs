@@ -8,17 +8,14 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		Audzeknis audzeknis = null;
-		Gui window = new Gui();
-		String vards;
-		String uzvards;
-		ArrayList<Audzeknis> list = new ArrayList();
+		Gui gui = new Gui();
 
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
 					Gui window = new Gui();
 					window.frame.setVisible(true);
+
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
